@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body{
+  font-family: 'Exo 2', sans-serif;
+  overflow: hidden;
+}
+
+#background{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: rgb(0, 0, 0); */
+}
+#img-bgr{
+  position: absolute;
+}
+#img-bgr>img{
+    height: auto; 
+    width: 100vw;
+}
+.container{
+  margin: 0 auto;
+  width: 1200px;
+  height: 800px;
+  background-color: white;
+  box-shadow: rgb(26, 34, 43) 0px 20px 30px -10px;
+  border-radius: 25.5px;
+  color: white;
+  display: flex;
+  z-index: 999;
+}
+/* ------------------------------------------ */
+.text-left{
+  width: 60%;
+  height: 100%;
+  background: rgb(176,56,206);
+  background: linear-gradient(127deg, rgb(255, 54, 234) 0%, rgb(64, 0, 173) 99%, rgba(27,0,85,1) 100%);
+  border-radius: 25px 0 0 25px;
+}
+.about p {
+  margin-left: 70px;
+}
+#logo {
+  width: 80px;
+  margin: 40px 0 0 70px;
+}
+#text-1{
+  font-size: 80px;
+  font-weight: 700;   
+  letter-spacing: 5px;
+}
+#line{
+  margin: -20px 0 50px 70px;
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
+
+.hide {
+  display: none;
+}
+.short-text{
+  font-size: 18px;
+  line-height: 25px;
+}
+.full-text{
+  font-size: 18px;
+  line-height: 25px;
+}
+.more-button {
+  background-color: rgb(72, 8, 184);
+  border: none;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 40px 0 0 65px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+  background-color: #0060cc;
+}
+/* --------------------------------------------- */
+.text-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  width: 40%;
+}
+.sign-text {
+  display:block;
+  align-items: center;
+  justify-content: center;
+}
+.sign-text #text-link {
+   display: flex;
+}
+.signin{
+  display: flex;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-left: 0px;
+  margin-top: -140px;
+}
+/* ----------------------------------------------------- */
+#text-link{
+  margin-top: 150px;
+}
+.login{
+  margin: -60px 0 0 -215px;
+  opacity: 1;
+  z-index: 9999;
+  position: absolute;
+  height: 50px;
+}
